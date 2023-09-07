@@ -1,0 +1,79 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+:root {
+    --purple: #803184;
+    --black: #140721;
+    --gold: #ffd700;
+    --orange: #ee8d0e;
+    --white: #fdfdfd;}
+body {
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    overflow-x: hidden;
+    font-family: 'Bebas Neue', sans-serif;}
+.logo {
+    width: 50px;
+    margin-top: -3.5cm;}
+img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;}
+.head_btn .btn+.btn{
+    margin-left:10px;}
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;}
+.navi_from {
+    display: flex;
+    align-items: center;
+    margin-top: -2.5cm;}
+.header {
+    color: var(--purple);
+    font-weight: bolder;
+    font-size: 40px;
+    margin-left: 1.5cm;
+    text-shadow: 0px 0px 4px var(--black), 0px 0px 8px var(--black), 0px 0px 12px var(--black);
+    font-family: 'Black Ops One', sans-serif;}
+.imageback {
+    background-image: url(https://i.pinimg.com/originals/d9/57/c6/d957c657f13dadd6cdf4d7173d22cbfc.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0 0;
+    height: 2.5cm;}
+.btn_navi{
+    margin-left: auto;}
+.btn{
+    display: inline-block;
+    background: var(--black);
+    text-align: center;
+    margin: -1cm 15px;
+    text-decoration: none;
+    font-family: 'Permanent Marker', sans-serif;
+    font-size: 15px;
+    color: var(--white);
+    border: 1px solid var(--white);
+    border-radius: 10px;
+    padding: 8px 18px;}
+.btn_ghost {
+    background: var(--white);
+    color: var(--black);
+    border: 1px solid var(--black);}
+.TDF {
+    background-image: url(https://i.pinimg.com/originals/13/c5/49/13c5496ec8e25db29d9f31de55ba1ef7.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;}
